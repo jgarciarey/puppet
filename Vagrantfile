@@ -2,7 +2,6 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  #config.vm.box = "puppetlabs/ubuntu-16.04-64-puppet"
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.network"private_network", ip:"192.168.33.20"
